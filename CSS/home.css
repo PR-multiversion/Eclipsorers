@@ -1,0 +1,215 @@
+
+@font-face {
+  font-family: spaceUI3;
+  src: url(../fonts/nasalization-rg.otf);
+}
+html {
+  scroll-behavior: smooth;
+  font-family: spaceUI3;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+  background-image: url("https://images.wallpaperscraft.com/image/single/stars_space_black_207055_3840x2400.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.top {
+  height: 10vh;
+  width: 100vw;
+  background-color: rgba(55, 55, 55, 0.127);
+  backdrop-filter: blur(3px);
+  border-bottom: 1px solid grey;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.page {
+  height: 90vh;
+  width: 100vw;
+}
+
+.name {
+  height: inherit;
+  /* width: 30vw; */
+  margin-left: 15px;
+}
+
+.nav {
+  height: inherit;
+  /* width: 70vw; */
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.navElement {
+  margin: 10px;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+.navElement:hover{
+  background-color: whitesmoke;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+}
+.videoCont {
+  width: 70vw;
+  height: inherit;
+}
+
+.quizCont {
+  width: 30vw;
+  height: inherit;
+}
+
+.video {
+  height: 70vh;
+  width: 65vw;
+  border: 1px solid white;
+  margin: 10px;
+}
+
+.LunarSolarButton {
+  height: 10vh;
+  width: 65vw;
+  border-radius: 10px;
+  border: 1px solid white;
+  margin: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 5px;
+}
+
+.quiz {
+  height: calc(80vh + 20px);
+  width: 25vw;
+  border-radius: 10px;
+  border: 1px solid white;
+  backdrop-filter: blur(6px);
+  display: flex;
+  flex-direction: column;
+}
+
+.head {
+  height: 10vh;
+  width: inherit;
+  background-color: rgba(202, 202, 202, 0.127);
+  backdrop-filter: blur(3px);
+  border-radius: 10px;
+}
+
+.body {
+  height: calc(60vh + 20px);
+  width: inherit;
+ 
+}
+
+.foot {
+  height: 10vh;
+  width: inherit;
+  background-color: rgba(0, 132, 255, 0.127);
+  backdrop-filter: blur(3px);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+
+.body .question-cont{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  gap: 15px;
+}
+.question{
+  width: 90%;
+  height: 35%;
+  margin-top: 20px;
+  border-radius: 5px;
+  color: dodgerblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  font-size: 18px;
+  line-height: 2;
+  background-color: white;
+}
+.answer-cont{
+  width: 100%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.answer{
+  width: 90%;
+  height: 15%;
+  color: black;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: white;
+}
+.foot .f-button{
+  padding: 10px;
+  color: black;
+  border-radius: 5px;
+  background-color: white;
+  cursor: pointer;
+  display: none;
+}
+.s-value{
+  font-size: 18px;
+  font-weight: bold;
+}
+a{
+  text-decoration: none;
+}
+.choose{
+  height: 100%;
+  width: 5em;
+  padding: 15px;
+  font-family: spaceUI3;
+  cursor: pointer;
+  font-size: 18px;
+  border: 1px solid white;
+  border-radius: 5px;
+  outline: none;
+}
+.choose:hover{
+  background-color: lightgray;
+}
+.eclipse{
+  display: none;
+}
